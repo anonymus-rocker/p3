@@ -2,10 +2,57 @@
     "posts": [
       {
         "id": 1,
-        "title": "hello"
-      }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+        "title": "post1",
+        "body": "post1 body",
+        "author": "author1",
+        "comments": [
+          {
+            "id": 1,
+            "body": "comment1",
+            "author": "author1"
+          },
+          {
+            "id": 2,
+            "body": "comment2",
+            "author": "author2"
+          }
+        ]
+      },
+        {
+            "id": 2,
+            "title": "post2",
+            "body": "post2 body",
+            "author": "author2",
+            "comments": [
+            {
+                "id": 3,
+                "body": "comment3",
+                "author": "author3"
+            },
+            {
+                "id": 4,
+                "body": "comment4",
+                "author": "author4"
+            }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "post3",
+            "body": "post3 body",
+            "author": "author3",
+            "comments": [
+            {
+                "id": 5,
+                "body": "comment5",
+                "author": "author5"
+            },
+            {
+                "id": 6,
+                "body": "comment6",
+                "author": "author6"
+            }
+            ]
+        }
+    ]
   }
